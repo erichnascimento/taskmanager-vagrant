@@ -17,7 +17,7 @@ install_go() {
 
   export $(echo 'GOPATH=/home/vagrant/go' | tee -a /etc/environment)
 
-  mkdir -p "$GOPATH/{src,bin,pkg}"
+  mkdir -p $GOPATH/{src,bin,pkg}
 
   echo "GOPATH configured in: $GOPATH"
 }
