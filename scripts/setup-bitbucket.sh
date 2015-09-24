@@ -14,7 +14,7 @@ setup_bitbucket() {
 
   #TODO: Refatory this
   if [[ -f "$KNOWN_HOSTS_FILE" ]]; then
-    "Bitbucket is aready configured! Skipping..." && exit
+    echo "Bitbucket is aready configured! Skipping..." && exit
   fi
 
   touch "$KNOWN_HOSTS_FILE"
