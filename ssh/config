@@ -1,2 +1,2 @@
 Host bitbucket.org
-  IdentityFile /vagrant/ssh/taskmanager-vagrant.rsa
+  IdentityFile ~/.ssh/taskmanager-vagrant.rsa

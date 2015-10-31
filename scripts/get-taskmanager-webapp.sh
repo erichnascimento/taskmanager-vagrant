@@ -2,7 +2,7 @@
 
 set -e
 
-PROJECTS_FOLDER="/home/vagrant/projects/"
+PROJECTS_FOLDER="/home/vagrant/projects"
 PROJECT_NAME="taskmanager-webapp"
 PROJECT_PATH="$PROJECTS_FOLDER/$PROJECT_NAME"
 GIT_REPOSITORY="git@bitbucket.org:erichnascimento/taskmanager-webapp.git"

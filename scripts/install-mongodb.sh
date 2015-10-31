@@ -10,7 +10,7 @@ install_mongo() {
   echo "installing MongoDB"
 
   # Import the public key used by the package management system
-  apt-key -q adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 &> /dev/null
+  apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 &> /dev/null
 
   # Create a list file for MongoDB
   echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" \
