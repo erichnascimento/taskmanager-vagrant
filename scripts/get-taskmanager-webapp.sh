@@ -15,7 +15,7 @@ create_project() {
   mkdir -p "$PROJECT_PATH"
   pushd "$PROJECT_PATH" > /dev/null
   echo "Pulling $PROJECT_NAME project from: $GIT_REPOSITORY ..."
-  git clone $GIT_REPOSITORY
+  git clone $GIT_REPOSITORY .
   popd > /dev/null
 }
 
